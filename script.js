@@ -129,7 +129,8 @@ function confirma(){ // funcao do botão confirma
         }
         else{
             document.querySelector('.tela').innerHTML = '<div class= " aviso-gigante pisca">FIM</div>'
-            alert("Aperte F5 para iniciar uma nova votação")
+            var snd = new Audio("urna.wav"); // buffers automatically when created
+            snd.play();
 
         }
     }
