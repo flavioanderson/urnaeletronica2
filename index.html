@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletronica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="urna">
+        <div class="tela">
+            <div class="d1">
+                <div class="d1_left">
+                    <div class="d11">
+                        <span>SEU VOTO PARA:</span>
+                </div>
+                    <div class="d12">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d13">
+
+                    </div>
+                    <div class="d14">
+                        Nome: FULANO <br/>
+                        Partido: AAA <br/>
+                        Vice: BELTRANO <br/>
+                    </div>
+                
+            </div>
+            <div class="d1_right">
+                <div class="d1_image">
+                    <img src="Imagens/flavio2.jpg" alt=""/>PRESIDENTE
+                </div>
+                <div class="d1_image small">
+                    <img src="Imagens/flavio1.jpg" alt=""/>VICE
+                </div>
+            </div>
+    </div>
+        <div class="d2">
+            Aperte a tela:<br/>
+            CONFIRMA Para CONFIRMAR este voto <br/>
+            CORRIGE Para REINICIAR este voto
+        </div>
+</div>
+        <div class="teclado">
+           <div class="teclado_linha">
+                <div class="teclado_botao" onclick="clicou('1')">1</div>
+                <div class="teclado_botao" onclick="clicou('2')">2</div>
+                <div class="teclado_botao" onclick="clicou('3')">3</div>
+           </div>
+
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick="clicou('4')">4</div>
+                <div class="teclado_botao" onclick="clicou('5')">5</div>
+                <div class="teclado_botao" onclick="clicou('6')">6</div>
+            </div>
+
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick="clicou('7')">7</div>
+                <div class="teclado_botao" onclick="clicou('8')">8</div>
+                <div class="teclado_botao" onclick="clicou('9')">9</div>
+           </div>
+
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick="clicou('0')">0</div>
+            </div>
+
+            <div class="teclado_linha">
+                <div class="teclado_botao botao_branco" onclick="branco()">BRANCO</div>
+                <div class="teclado_botao botao_corrige" onclick="corrige()">CORRIGE</div>
+                <div class="teclado_botao botao_confirma" onclick="confirma()">CONFIRMA</div>
+           </div>
+
+    </div>
+</div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
+    <h1>COLA PARA VOTAÇÃO</h1>
+    <div class = "table">
+        <table >
+            <tr id="tr1">
+                <td>Candidato</td>
+                <td>Vice</td>
+                <td>Cargo</td>
+                <td>Numero</td>
+                
+            </tr>
+            <tr>
+                <td>Flavio</td>
+                <td>Sem vice</td>
+                <td>Vereador</td>
+                <td>11111</td>
+                
+            </tr>
+            <tr>
+                <td>Leticia</td>
+                <td>Sem vice</td>
+                <td>Vereador</td>
+                <td>2222</td>
+                
+            </tr>
+            <tr>
+                <td>Bruno Zanelato</td>
+                <td>Josiane</td>
+                <td>Prefeito</td>
+                <td>11</td>
+                
+            </tr>
+    
+            <tr>
+                <td>Vanderlei</td>
+                <td>Maria Ines</td>
+                <td>Prefeito</td>
+                <td>22</td>
+                
+            </tr>
+    
+        </table>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/><br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/><br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</body>
+</html>
